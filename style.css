@@ -19,6 +19,8 @@ section {
 .hero_btn {
   float: right;
   margin: 25px 20px 0px 0px;
+  color: #191919;
+  width: 100%;
 }
 .sign_in--btn {
   background-color: #eb1700;
