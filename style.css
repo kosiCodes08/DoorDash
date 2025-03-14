@@ -1,0 +1,562 @@
+/* General Reset for Margin, Padding, and Font Settings */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+section {
+  margin: 20px;
+}
+.hero_btn {
+  float: right;
+  margin: 25px 20px 0px 0px;
+}
+.sign_in--btn {
+  background-color: #eb1700;
+  padding: 8px 12px;
+  margin: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 18px;
+  font-style: normal;
+}
+.sign_in--btn:hover {
+  background-color: #d91400;
+  cursor: pointer;
+}
+.sign_up--btn {
+  background-color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 18px;
+  font-style: normal;
+}
+.search_container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  width: fit-content;
+}
+.search_container p {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bolder;
+  line-height: 40px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.search {
+  width: 45%;
+  padding: 15px 15px 15px 55px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+}
+.search_btn {
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+.icons_container {
+  position: relative;
+}
+.icon-1 {
+  position: absolute;
+  top: 17px;
+  left: 25%;
+  font-size: 20px;
+}
+.icon-2 {
+  position: absolute;
+  top: 10px;
+  left: 71%;
+  font-size: 35px;
+}
+.search_btn {
+  padding: 7px 18px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+nav {
+  width: 100%;
+  max-width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  z-index: 1000;
+}
+.nav_btn {
+  float: right;
+  padding: 30px 30px 0px 0px;
+}
+.logo {
+  margin-left: 30px;
+}
+
+.dasher_container {
+  text-align: center;
+  margin: 60px 50px 50px 90px;
+  display: block;
+}
+.dasher {
+  float: left;
+  max-width: 265px;
+  padding: 50px;
+}
+.dasher h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  font-style: normal;
+  padding: 5px;
+}
+.dasher p {
+  font-size: 18px;
+  color: #191919;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 5px;
+}
+.dasher_link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(235, 23, 0);
+}
+.center {
+  display: inline-block;
+  padding: 30px;
+}
+.container {
+  text-align: center;
+  padding: 30px 30px 0px 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.restaurants_page {
+  position: relative;
+  bottom: 100px;
+  max-width: 400px;
+}
+h4 {
+  font-weight: 700;
+  color: rgb(25, 25, 25);
+  line-height: 40px;
+  font-size: 40px;
+}
+.door_dash-logo {
+  position: relative;
+  top: -50px;
+  left: 500px;
+}
+.desc_1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(25, 25, 25);
+}
+.desc_2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: rgb(25, 25, 25);
+}
+.restaurant_btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #eb1700;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+}
+.restaurant_btn:hover {
+  background-color: #d91400;
+  cursor: pointer;
+}
+.section_2 {
+  background-color: #fef1ee;
+  /* width: 100%; */
+  padding: 30px;
+  margin: 0%;
+}
+
+/* Grocery Section Styling */
+.grocery_section {
+  margin: 0;
+  padding: 0;
+}
+.grocery_container {
+  position: relative;
+}
+.grocery_background {
+  content: "";
+  /* apply a linear gradient directly on the background image to darken it */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+.grocery_content {
+  /* position: relative; */
+  position: absolute;
+  z-index: 2;
+  color: white;
+  top: 120px;
+  left: 400px;
+  max-width: 550px;
+  text-align: center;
+}
+.grocery_sentence-1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+.grocery_sentence-2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.grocery_sentence-3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+/* Shopping Styling */
+.shopping_section {
+  margin: 0;
+  padding: 0;
+}
+.shopping_container {
+  padding: 30px 30px 0px 30px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.shopping_btn {
+  padding: 10px 10px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #eb1700;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+}
+.shopping_btn:hover {
+  background-color: #d91400;
+  cursor: pointer;
+}
+
+/* Todo and gift styling */
+.package_img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.package_container {
+  display: inline-block;
+  width: 44%;
+  padding: 30px;
+}
+.to-do_container {
+  text-align: center;
+  padding-top: 20px;
+}
+.to-do_section {
+  background-color: #fef1ee;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.section_heading {
+  font-size: 32px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 40px;
+  padding: 50px;
+}
+.package_heading {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.package {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 20px;
+}
+.package_btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #eb1700;
+  border-radius: 30px;
+  border: none;
+  text-decoration: none;
+}
+.package_btn:hover {
+  background-color: #d91400;
+  cursor: pointer;
+}
+
+.dasher_job {
+  margin: 0;
+  padding-top: 0;
+  padding-left: 50px;
+}
+
+/* section 8 */
+.country_section {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+}
+.country_section h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+.country_container {
+  text-align: center;
+  margin-top: 20px;
+}
+.city_container {
+  display: inline-block;
+  padding: 10px 140px 10px 140px;
+}
+.top_cities {
+  color: rgb(25, 25, 25);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+.top_cities::before {
+  content: "";
+  height: 3px;
+  width: 27%;
+  background-color: #606060;
+  z-index: 3;
+  position: absolute;
+  top: 120px;
+  left: 110px;
+}
+.top_chains {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: rgb(73, 73, 73);
+  padding-bottom: 20px;
+}
+.country_container::before {
+  content: "";
+  height: 2px;
+  width: 83%;
+  background-color: #f1f1f1;
+  z-index: 2;
+  position: absolute;
+  top: 120px;
+}
+.country_section a {
+  text-decoration: none;
+}
+.city_container:hover {
+  background-color: #f7f7f7;
+}
+.city_content {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 120px;
+}
+.city_content li {
+  list-style: none;
+  text-align: center;
+  padding: 10px 65px;
+  font-weight: 500;
+  line-height: 22px;
+  font-size: 16px;
+  color: rgb(25, 25, 25);
+}
+.city_content li:hover {
+  background-color: #f7f7f7;
+}
+.city_content ul {
+  margin-top: 20px;
+}
+
+/* footer styling */
+.category_1 {
+  display: inline-block;
+  text-align: left;
+ padding: 28px 80px 0px 30px;
+}
+.category_2 {
+  display: inline-block;
+ padding: 90px 80px 0px 30px;
+ text-align: left;
+}
+footer {
+  color: rgb(255, 255, 255);
+  background-color: #191919;
+  padding: 10px 20px 20px 80px;
+}
+footer a {
+  list-style: none;
+ color: #c4c4c4;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 14px;
+ text-transform: capitalize;
+  text-decoration: none;
+  color:#c4c4c4;
+}
+
+footer a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+footer h3{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.position{
+  position: relative;
+  bottom: 240px;
+}
+.position_2{
+  position: relative;
+  bottom: 220px;
+}
+.footer_btn{
+  position: absolute;
+  left: 900px;
+  top: 160px;
+   background-color: #494949;
+   padding:0px 15px 7px 15px;
+   border-radius: 8px;
+   opacity: 0.7;
+}
+.footer_btn:hover{
+opacity: 1;
+}
+.category_container{
+  position: relative;
+}
+.play_icon{
+  font-size: 30px;
+  top: 10px;
+  left: 0px;
+}
+.play_icon-2{
+  font-size: 35px;
+  top: 10px;
+  left: 0px;
+  padding-right: 5px;
+}
+.play_btn{
+  color: #BABABA;
+  display: inline-block;
+}
+.play_btn-2{
+  color: #BABABA;
+  display: inline-block;
+}
+.android_app{
+  font-size: 7px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 3px;
+}
+.android_app-2{
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 3px;
+}
+.play{
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  top: -5px;
+  padding: 0;
+  margin: 0;
+}
+.play-2{
+  font-size: 25px;
+  font-weight: 500;
+  
+  padding: 0;
+  margin: 0;
+}
+.footer_btn-2:hover{
+  opacity: 1;
+}
+.footer_btn-2{
+  position: absolute;
+  left: 900px;
+  top: 100px;
+   background-color: #494949;
+   padding:0px 10px 7px 12px;
+   border-radius: 8px;
+   opacity: 0.7;
+}
