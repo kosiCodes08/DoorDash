@@ -19,8 +19,6 @@ section {
 .hero_btn {
   float: right;
   margin: 25px 20px 0px 0px;
-  color: #191919;
-  width: 100%;
 }
 .sign_in--btn {
   background-color: #eb1700;
@@ -445,12 +443,12 @@ h4 {
 .category_1 {
   display: inline-block;
   text-align: left;
- padding: 28px 80px 0px 30px;
+  padding: 28px 80px 0px 30px;
 }
 .category_2 {
   display: inline-block;
- padding: 90px 80px 0px 30px;
- text-align: left;
+  padding: 90px 80px 0px 30px;
+  text-align: left;
 }
 footer {
   color: rgb(255, 255, 255);
@@ -459,83 +457,83 @@ footer {
 }
 footer a {
   list-style: none;
- color: #c4c4c4;
+  color: #c4c4c4;
   font-weight: 500;
   line-height: 20px;
   font-size: 14px;
- text-transform: capitalize;
+  text-transform: capitalize;
   text-decoration: none;
-  color:#c4c4c4;
+  color: #c4c4c4;
 }
 
-footer a:hover{
+footer a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
-footer h3{
+footer h3 {
   font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   padding-bottom: 20px;
   text-align: left;
 }
-.position{
+.position {
   position: relative;
   bottom: 240px;
 }
-.position_2{
+.position_2 {
   position: relative;
   bottom: 220px;
 }
-.footer_btn{
+.footer_btn {
   position: absolute;
   left: 900px;
   top: 160px;
-   background-color: #494949;
-   padding:0px 15px 7px 15px;
-   border-radius: 8px;
-   opacity: 0.7;
+  background-color: #494949;
+  padding: 0px 15px 7px 15px;
+  border-radius: 8px;
+  opacity: 0.7;
 }
-.footer_btn:hover{
-opacity: 1;
+.footer_btn:hover {
+  opacity: 1;
 }
-.category_container{
+.category_container {
   position: relative;
 }
-.play_icon{
+.play_icon {
   font-size: 30px;
   top: 10px;
   left: 0px;
 }
-.play_icon-2{
+.play_icon-2 {
   font-size: 35px;
   top: 10px;
   left: 0px;
   padding-right: 5px;
 }
-.play_btn{
-  color: #BABABA;
+.play_btn {
+  color: #bababa;
   display: inline-block;
 }
-.play_btn-2{
-  color: #BABABA;
+.play_btn-2 {
+  color: #bababa;
   display: inline-block;
 }
-.android_app{
+.android_app {
   font-size: 7px;
   padding: 0;
   margin: 0;
   position: relative;
   top: 3px;
 }
-.android_app-2{
+.android_app-2 {
   font-size: 12px;
   padding: 0;
   margin: 0;
   position: relative;
   top: 3px;
 }
-.play{
+.play {
   font-size: 20px;
   font-weight: 400;
   position: relative;
@@ -543,22 +541,22 @@ opacity: 1;
   padding: 0;
   margin: 0;
 }
-.play-2{
+.play-2 {
   font-size: 25px;
   font-weight: 500;
-  
+
   padding: 0;
   margin: 0;
 }
-.footer_btn-2:hover{
+.footer_btn-2:hover {
   opacity: 1;
 }
-.footer_btn-2{
+.footer_btn-2 {
   position: absolute;
   left: 900px;
   top: 100px;
-   background-color: #494949;
-   padding:0px 10px 7px 12px;
-   border-radius: 8px;
-   opacity: 0.7;
+  background-color: #494949;
+  padding: 0px 10px 7px 12px;
+  border-radius: 8px;
+  opacity: 0.7;
 }
